@@ -3,16 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Dinâmica</title>
+  <title>Minha Primeira Página</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Bem-vindo, Iodilson!</h1>
-    <p>Explore sua primeira página dinâmica com HTML, CSS e JavaScript.</p>
+    <h1>Bem-vindo ao Meu Site:</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <button id="theme-button">Mudar Tema</button>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Esta é minha primeira página usando HTML, CSS e JavaScript.</p>
+    </section>
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="formCotato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mai</label>
+        <input type="email" id="email" name="emil" required>
+        <button="submit">Enviar</button>
+      </form>
+    </section>
   </main>
   <footer>
     <p>Desenvolvido por Iodilson Junior - 2025</p>
